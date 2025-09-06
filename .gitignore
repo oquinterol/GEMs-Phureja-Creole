@@ -1,3 +1,6 @@
+# Ignore folder named 'temp' and all its contents
+temp/
+
 # Ignore all markdown files
 *.md
 # But do not ignore README.md
