@@ -1,4 +1,4 @@
-# Reconstrucción y Validación de GEMs — *Solanum tuberosum* Gr. *Phureja* (var. Colombia)
+# Reconstrucción y Validación de GEMs — *Solanum tuberosum* Gr. *Phureja* (Cultivar 'Criolla Colombia')
 
 Repositorio para la **reconstrucción, curación y validación** de Modelos Metabólicos a Escala Genómica (GEMs) de la variedad **Criolla Colombia**. El proyecto integra **COBRApy**, **ModelSEEDpy**, y **MEMOTE**, con cumplimiento estricto de **SBML Level 3 V2 + FBC v2** y **anotaciones MIRIAM/Identifiers.org**. Está diseñado para ejecutarse **localmente** (offline) o mediante **APIs** (resolución y enriquecimiento de metadatos en línea).
 
