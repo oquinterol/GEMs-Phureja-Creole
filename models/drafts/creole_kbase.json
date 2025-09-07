@@ -1,0 +1,111 @@
+{
+    "metadata": [
+        [
+            5,
+            "CreolePotato_MetabolicReconstruction",
+            "KBaseFBA.FBAModel-15.0",
+            "2025-01-27T02:15:08+0000",
+            1,
+            "oquinterol",
+            204857,
+            "oquinterol:narrative_1737938751668",
+            "71c5e28e4e2159ee27c859a86827e2d8",
+            1107486,
+            {
+                "Genome": "204857/3/1",
+                "Name": "CreolePotato_MetabolicReconstruction",
+                "Number biomasses": "2",
+                "Number compartments": "11",
+                "Number compounds": "1134",
+                "Number gapfills": "0",
+                "Number gapgens": "0",
+                "Number reactions": "1066",
+                "Source": "KBase",
+                "Source ID": "PlantSEED_v2",
+                "Type": "GenomeScale"
+            }
+        ]
+    ],
+    "provenance": [
+        {
+            "copy_source_inaccessible": 0,
+            "created": "2025-01-27T02:15:07+0000",
+            "creator": "oquinterol",
+            "epoch": 1737944107342,
+            "extracted_ids": {},
+            "info": [
+                5,
+                "CreolePotato_MetabolicReconstruction",
+                "KBaseFBA.FBAModel-15.0",
+                "2025-01-27T02:15:08+0000",
+                1,
+                "oquinterol",
+                204857,
+                "oquinterol:narrative_1737938751668",
+                "71c5e28e4e2159ee27c859a86827e2d8",
+                1107486,
+                {
+                    "Genome": "204857/3/1",
+                    "Name": "CreolePotato_MetabolicReconstruction",
+                    "Number biomasses": "2",
+                    "Number compartments": "11",
+                    "Number compounds": "1134",
+                    "Number gapfills": "0",
+                    "Number gapgens": "0",
+                    "Number reactions": "1066",
+                    "Source": "KBase",
+                    "Source ID": "PlantSEED_v2",
+                    "Type": "GenomeScale"
+                }
+            ],
+            "orig_wsid": 204857,
+            "path": [
+                "204857/5/1"
+            ],
+            "provenance": [
+                {
+                    "custom": {},
+                    "description": "KBase SDK method run via the KBase Execution Engine",
+                    "epoch": 1737943787000,
+                    "external_data": [],
+                    "input_ws_objects": [
+                        "204857/3/1"
+                    ],
+                    "intermediate_incoming": [],
+                    "intermediate_outgoing": [],
+                    "method": "reconstruct_plant_metabolism",
+                    "method_params": [
+                        {
+                            "input_genome": "Genome_CreolePotato",
+                            "input_ws": "oquinterol:narrative_1737938751668",
+                            "output_fbamodel": "CreolePotato_MetabolicReconstruction"
+                        }
+                    ],
+                    "resolved_ws_objects": [
+                        "204857/3/1"
+                    ],
+                    "service": "plant_fba",
+                    "service_ver": "a8031aa0f4320c7cd96f78170d7644f696614f8d",
+                    "subactions": [
+                        {
+                            "code_url": "https://github.com/kbaseapps/plant_fba",
+                            "commit": "a8031aa0f4320c7cd96f78170d7644f696614f8d",
+                            "name": "plant_fba",
+                            "ver": "a8031aa0f4320c7cd96f78170d7644f696614f8d"
+                        },
+                        {
+                            "code_url": "https://github.com/kbaseapps/DataFileUtil",
+                            "commit": "0d855560a37f8787ab3bb67e464b9c94b299764e",
+                            "name": "DataFileUtil",
+                            "ver": "release"
+                        }
+                    ],
+                    "time": "2025-01-27T02:09:47+0000"
+                }
+            ],
+            "refs": [
+                "204857/3/1"
+            ]
+        }
+    ]
+}
