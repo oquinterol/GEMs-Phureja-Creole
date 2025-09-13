@@ -7,7 +7,7 @@ doccs/
 .sync*
 # Added ignores for large files, sensitive data, and generated files
 .stfolder/
-data/*
+data/
 reports/
 models/drafts/
 # Python artifacts
@@ -24,4 +24,3 @@ env/
 # Log files
 log/
 
-data/mappings/
