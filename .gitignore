@@ -1,8 +1,25 @@
-# Ignore folder named 'temp' and all its contents
+# Existing ignores
 temp/
 agents/
 doccs/
-# Ignore all markdown files
 *.md
-# But do not ignore README.md
 !README.md
+
+# Added ignores for large files, sensitive data, and generated files
+.stfolder/
+data/genome/
+data/media/
+reports/
+models/drafts/
+models/current/*.summary.json
+
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+env/
