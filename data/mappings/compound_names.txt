@@ -1,0 +1,495 @@
+# Generated identifier list
+(2E)-Dodecenoyl-[acp]
+(2E)-Hexadecenoyl-[acp]
+(2E)-Hexenoyl-[acp]
+(2E)-Octadecenoyl-[acp]
+(2E)-Octenoyl-[acp]
+(2E)-Tetradecenoyl-[acp]
+(6R)-6-beta-hydroxy-1,4,5,6-tetrahydronicotinamide-adenine dinucleotide
+(6S)-6-beta-Hydroxy-1,4,5,6-tetrahydronicotinamide-adenine dinucleotide
+(6S)-6-beta-Hydroxy-1,4,5,6-tetrahydronicotinamide-adenine dinucleotide 2'-phosphate
+(E)-Cinnamate
+(R)-3-Hydroxydecanoyl-[acyl-carrier protein]
+(R)-4'-Phosphopantothenoyl-L-cysteine
+(R)-NADPHX
+(S)-2-Acetolactate
+(Z)-11-octadecenoic acid
+1,2-dihydroxy-3-keto-5-methylthiopentene
+1,3-Bisphospho-D-glycerate
+1,4-Dihydroxy-2-naphthoyl-CoA
+1-(2-carboxyphenylamino)-1-deoxyribulose 5-phosphate
+1-4-Dihydroxy-2-naphthoate
+1-Aminocyclopropane-1-carboxylate
+1-Hydroxy-2-methyl-2-butenyl 4-diphosphate
+1-Phospho-alpha-D-glucuronate
+1-Pyrroline-5-carboxylate
+1-deoxy-D-xylulose5-phosphate
+10-Formyltetrahydrofolate
+16-Hydroxypalmitate
+16-Oxo-palmitate
+18-Hydroxyoleate
+18-Oxooleate
+2,3-Dihydroxy-3-methylvalerate
+2,3-diketo5-methylthio-1-phosphopentane
+2,5-Diamino-6-(5'-phosphoribosylamino)-4-pyrimidineone
+2-Acetamido-5-oxopentanoate
+2-Aceto-2-hydroxybutanoate
+2-Amino-4-hydroxy-6-hydroxymethyl-7-8-dihydropteridinediphosphate
+2-C-methyl-D-erythritol2-4-cyclodiphosphate
+2-C-methyl-D-erythritol4-phosphate
+2-Dehydropantoate
+2-Hydroxy-3-keto-5-methylthiopentenyl-1-phosphate
+2-Isopropylmalate
+2-Isopropylmaleate
+2-Methyl-6-solanyl-1,4-benzoquinol
+2-Methylbutyryl-CoA
+2-Oxobutyrate
+2-Oxoglutarate
+2-Phospho-D-glycerate
+2-Phosphoglycolate
+2-Succinyl-5-enolpyruvyl-6-hydroxy-3-cyclohexene-1-carboxylate
+2-carboxylate-4-methyl-5-beta-(ethyl adenosine 5-diphosphate) thiazole
+2-isopropyl-3-oxosuccinate
+2-methoxy-6-(all-trans-nonaprenyl)phenol
+2-methoxy-6-all trans-nonaprenyl-2-methoxy-1,4-benzoquinol
+2-nonaprenyl-3-methyl-6-methoxy-1,4-benzoquinol
+2-phospho-4--cytidine5-diphospho-2-C-methyl-D-erythritol
+3,4-dihydroxy-5-all-trans-nonaprenylbenzoate
+3-(3,7,11,15,19,23-nonamethyltetracosa-2,6,10,14,18,22-hexaenyl) -4-hydroxy-5-methoxy-benzoic acid
+3-4-dihydroxy-2-butanone4-phosphate
+3-Dehydroshikimate
+3-Hydroxy-octanoyl-ACPs
+3-Isopropylmalate
+3-Methyl-2-oxobutanoate
+3-Oxohexanoyl-[acp]
+3-Oxostearoyl-[acp]
+3-Phosphoglycerate
+3-Phosphonooxypyruvate
+3-Ureidopropanoate
+3-demethylubiquinol-9
+3-oxo-cis-vaccenoyl-ACPs
+3-oxodecanoyl-acp
+3-oxododecanoyl-acp
+3-oxohexadecanoyl-acp
+3-oxooctanoyl-acp
+3-oxotetradecanoyl-acp
+3-phosphoadenylylsulfate
+3-phosphoshikimate
+3-phytyl-1,4-naphtoquinol
+3MOP
+4-(L-Alanin-3-yl)-2-hydroxy-cis,cis-muconate 6-semialdehyde
+4--1-D-Ribitylamino-5-aminouracil
+4--cytidine5-diphospho-2-C-methyl-D-erythritol
+4-Amino-2-methyl-5-diphosphomethylpyrimidine
+4-Amino-5-phosphomethyl-2-methylpyrimidine
+4-Coumarate
+4-Coumaroyl-CoA
+4-Coumaroylshikimate
+4-Hydroxybenzoate
+4-Hydroxybenzoyl-CoA
+4-Methyl-5--2-hydroxyethyl-thiazole
+4-Methyl-5--2-phosphoethyl-thiazole
+4-Phospho-L-aspartate
+4-methylthio 2-oxobutyrate
+4-phosphopantothenate
+4MOP
+5'-Deoxyadenosine
+5'-O-beta-D-Glucosylpyridoxine
+5'-Phosphoribosyl-4-carboxy-5-aminoimidazole
+5'-Phosphoribosylformylglycinamidine
+5-10-Methenyltetrahydrofolate
+5-10-Methylenetetrahydrofolate
+5-Amino-6--5-phosphoribitylaminouracil
+5-Amino-6--5-phosphoribosylaminouracil
+5-Dehydroquinate
+5-Deoxyribose-1-phosphate
+5-Formyltetrahydrofolate
+5-Hydroxyconiferaldehyde
+5-Hydroxyferulate
+5-Methyltetrahydrofolate
+5-Methyltetrahydropteroyltri-L-glutamate
+5-Methylthio-D-ribose
+5-Methylthioadenosine
+5-O--1-Carboxyvinyl-3-phosphoshikimate
+5-Phosphoribosylamine
+5-deoxy-D-ribulose 1-phosphate
+5-diphosphomevalonate
+5-phosphomevalonate
+6-7-Dimethyl-8--1-D-ribityllumazine
+6-Phospho-D-gluconate
+6-Phosphosucrose
+6-hydroxymethyl dihydropterin
+6-phospho-D-glucono-1-5-lactone
+7,8-Dihydroneopterin 3'-triphosphate
+7-8-Diaminononanoate
+8-Amino-7-oxononanoate
+9,10,18-Trihydroxystearate
+9,10-Dihydroxystearic acid
+9,10-Epoxy-18-hydroxystearate
+ABEE
+ACP
+ADC
+ADP
+AICAR
+AIR
+AMP
+APS
+ATP
+Acetaldehyde
+Acetate
+Acetoacetyl-ACP
+Acetoacetyl-CoA
+Acetyl-CoA
+Adenine
+Adenosine
+Adenylosuccinate
+Anthranilate
+BIOT
+Behenoyl-CoA
+Beta-3-hydroxybutyryl-ACPs
+Biomass
+Butyryl-ACP
+CDP
+CMP
+CO2
+CTP
+Caffeate
+Caffeoyl-CoA
+Carbamoylphosphate
+Chlorogenate
+Chlorophyll a
+Chorismate
+Cinnamoyl-CoA
+Cis-vaccenoyl-ACPs
+Citrate
+Citrulline
+Cl-
+CoA
+Coniferin
+Coniferol
+Crotonyl-ACPs
+Cystathionine
+Cytidine
+Cytochrome c2+
+Cytochrome c3+
+D-3-Hydroxydodecanoyl-[acp]
+D-3-Hydroxyhexanoyl-[acp]
+D-Erythrose4-phosphate
+D-Galactose 1-phosphate
+D-Galacturonate 1-phosphate
+D-Ribulose 1,5-bisphosphate
+D-Ribulose5-phosphate
+D-Serine
+D-Xylulose5-phosphate
+D-erythro-imidazol-glycerol-phosphate
+D-fructose-6-phosphate
+D-mannose-6-phosphate
+D-ribulose-1-P
+D-threo-Isocitric acid
+DAHP
+DIOH-ISOVALERATE
+DMAPP
+Deamido-NAD
+Decanoate
+Decanoyl-ACP
+Decanoyl-CoA
+Dephospho-CoA
+Dethiobiotin
+Dihydroconiferyl alcohol
+Dihydrodipicolinate
+Dihydrofolate
+Dihydrogeranylgeranyl diphosphate
+Dihydroneopterin
+Dihydroneopterin phosphate
+Dihydropteroate
+Docosanoate
+Dodecanoyl-ACP
+Eriodictyol
+Ethanol
+FAD
+FAICAR
+FMN
+Farnesyldiphosphate
+Ferulaldehyde
+Ferulate
+Feruloyl-CoA
+Formate
+Fumarate
+GAR
+GDP
+GG-chl a
+GLCN
+GMP
+GSH
+GTP
+Geranyldiphosphate
+Geranylgeranyl diphosphate
+Glucose-1-phosphate
+Glyceraldehyde3-phosphate
+Glycerate
+Glycerol-3-phosphate
+Glycerone-phosphate
+Glycine
+Glycolaldehyde
+Glycolate
+Glyoxalate
+Guanine
+Guanosine
+Gynesine
+H2CO3
+H2O
+H2O2
+H2S
+HCN
+HMA
+HMG-CoA
+Hexadecanedioate
+Hexanoyl-ACP
+Homocysteine
+Homogentisate
+Hydrouracil
+Hydroxypyruvate
+IMP
+Iminoaspartate
+Indoleglycerol phosphate
+Isobutyryl-CoA
+Isochorismate
+Isocitrate
+Isopentenyldiphosphate
+Isosalipurpol
+Isovaleryl-CoA
+L-3-Cyanoalanine
+L-Alanine
+L-Arginine
+L-Argininosuccinate
+L-Asparagine
+L-Aspartate
+L-Aspartate4-semialdehyde
+L-Cystathionine
+L-Cysteine
+L-Cysteine-Desulfurases
+L-Dopa
+L-Glutamate
+L-Glutamate5-semialdehyde
+L-Glutamine
+L-Glutamyl 5-phosphate
+L-Histidinal
+L-Histidine
+L-Histidinol
+L-Homoserine
+L-Inositol
+L-Isoleucine
+L-Lactate
+L-Leucine
+L-Lysine
+L-Malate
+L-Methionine
+L-Phenylalanine
+L-Proline
+L-Serine
+L-Threonine
+L-Tryptophan
+L-Tyrosine
+L-Valine
+L-histidinol-phosphate
+LL-2,6-Diaminopimelate
+Lauroyl-CoA
+Linoleate
+Linoleoyl-CoA
+MANNOSE
+MTTL
+Malonyl-CoA
+Malonyl-acyl-carrierprotein-
+Mevalonic acid
+Myristic acid
+Myristoyl-ACPs
+Myristoyl-CoA
+N-5-phosphoribosyl-anthranilate
+N-Acetyl-L-glutamate
+N-Acetylornithine
+N-Carbamoyl-L-aspartate
+N-Feruloyltyramine
+N-Formyl-GAR
+N-Glucosylnicotinate
+N-Ribosylnicotinamide
+NAD
+NADH
+NADP
+NADPH
+NH3
+Naringenin
+Nervonic acid
+Nervonoyl-CoA
+Niacin
+Nicotinamide
+Nicotinamide ribonucleotide
+Nicotinate D-ribonucleoside
+Nicotinate ribonucleotide
+Nitrate
+Nitrite
+Nonaprenyl-4-hydroxybenzoate
+O-Acetyl-L-homoserine
+O-Phospho-L-homoserine
+OPP
+Octadec-9-ene-1,18-dioic-acid
+Octanoyl-ACP
+Octanoyl-CoA
+Oleate
+Oleoyl-ACPs
+Ornithine
+Orotate
+Orotidylic acid
+Ox-Thioredoxin
+Oxaloacetate
+Oxidized glutathione
+Oxidized-Plastocyanins
+Oxidized-ferredoxins
+PAN
+PLASTOQUINOL-1
+PLASTOQUINONE
+PPi
+PRPP
+Palmitate
+Palmitoleoyl-ACPs
+Palmitoyl-ACP
+Palmitoyl-CoA
+Pantoate
+Persulfurated-L-cysteine-desulfurases
+Phenylpyruvate
+Phosphate
+Phosphoenolpyruvate
+Phosphopantetheine
+Phosphoribosyl-AMP
+Phosphoribosyl-ATP
+Phytonadiol
+Phytyl diphosphate
+Pimeloyl-CoA
+Plastocyanin-Reduced
+Plastoquinol-9
+Prephenate
+Pretyrosine
+Pyridoxal
+Pyridoxal phosphate
+Pyridoxamine phosphate
+Pyridoxine phosphate
+Pyridoxol
+Pyruvate
+Quinate
+Quinolinate
+R-3-Hydroxypalmitoyl-ACPs
+R-3-hydroxy-cis-vaccenoyl-ACPs
+R-3-hydroxystearoyl-ACPs
+Red-Thioredoxin
+Reduced-ferredoxins
+Riboflavin
+S-Adenosyl-4-methylthio-2-oxobutanoate
+S-Adenosyl-L-methionine
+S-Adenosyl-homocysteine
+S-Dihydroorotate
+S-Methyl-L-methionine
+SAICAR
+SHCHC
+Sedoheptulose 1,7-bisphosphate
+Sedoheptulose7-phosphate
+Shikimate
+Sinapaldehyde
+Sinapate
+Sinapyl alcohol
+Solanesyl diphosphate
+Stearoyl-[acyl-carrier protein]
+Succinate
+Succinyl-CoA
+Succinylbenzoate
+Succinylbenzoyl-CoA
+Sucrose
+Sulfate
+Sulfite
+Syringin
+THF-L-glutamate
+TPP
+TTP
+Tetrahydrofolate
+Tetrahydrogeranylgeranyl diphosphate
+Thiamin
+Thiamin triphosphate
+Thiamine phosphate
+Toxopyrimidine
+Trans-D2-decenoyl-ACPs
+Tyramine
+UDP
+UDP-L-ARABINOSE
+UDP-apiose
+UDP-galactose
+UDP-glucose
+UDP-xylose
+UDPgalacturonate
+UDPglucuronate
+UMP
+UTP
+Ubiquinol-8
+Ubiquinone-8
+Uracil
+Urea
+Uridine
+XMP
+a cis-vaccen-2-enoyl-[acp]
+all trans Decaprenyl diphosphate
+all-trans-Heptaprenyl diphosphate
+all-trans-Hexaprenyl diphosphate
+alpha-D-Galactose
+alpha-D-Glucose
+alpha-D-Glucose 6-phosphate
+beta-Alanine
+beta-D-Fructose
+beta-D-Fructose 1,6-bisphosphate
+beta-D-Fructose 6-phosphate
+beta-D-Glucose
+beta-D-Glucose 6-phosphate
+beta-D-Glucuronic acid
+beta-D-Ribofuranose
+beta-L-Arabinose 1-phosphate
+caffeoylshikimate
+cis-9,10-Epoxystearic acid
+cis-Aconitate
+cis-octadec-9-enoyl-coa
+coniferaldehyde glucoside
+dADP
+dATP
+dCDP
+dCMP
+dCTP
+dGDP
+dGTP
+dTDP
+dTMP
+dUDP
+dUMP
+dUTP
+ddca
+dihydroGG-chl a
+dihydroconiferyl alcohol glucoside
+imidazole acetol-phosphate
+indol
+meso-2,6-Diaminopimelate
+methylthioribose-1-phosphate
+methylthioribulose-1-phosphate
+n-acetylglutamyl-phosphate
+ocdca
+octanoate
+p-Coumaraldehyde
+p-Coumaroyl quinic acid
+p-Coumaryl alcohol
+p-PAPA-Glc
+p-hydroxyphenylpyruvate
+pendp
+phosphoribosylformiminoaicar-phosphate
+phosphoribulosylformimino-AICAR-phosphate
+phosphoserine
+ribose-5-phosphate
+sinapaldehyde glucoside
+strcoa
+tetrahydroGG-chl a
+tetrahydrodipicolinate
+tetrahydropteroyl tri-L-glutamate
+trans-2-Hydroxycinnamate
+ubiquinol(9)
