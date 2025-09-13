@@ -4,15 +4,12 @@ agents/
 doccs/
 *.md
 !README.md
-
+.sync*
 # Added ignores for large files, sensitive data, and generated files
 .stfolder/
-data/genome/
-data/media/
+data/*
 reports/
 models/drafts/
-models/current/*.summary.json
-
 # Python artifacts
 __pycache__/
 *.pyc
@@ -23,3 +20,6 @@ __pycache__/
 venv/
 .venv/
 env/
+
+# Log files
+log/
