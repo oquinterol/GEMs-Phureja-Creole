@@ -5,9 +5,13 @@ doccs/
 *.md
 !README.md
 .sync*
+# Just IDs
+data/
+!data/mappings/
+!data/mappings/**
+
 # Added ignores for large files, sensitive data, and generated files
 .stfolder/
-data/
 reports/
 models/drafts/
 # Python artifacts
