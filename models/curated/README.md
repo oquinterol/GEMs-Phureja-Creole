@@ -1,30 +1,29 @@
-# Curated Models - Modelos Curados
+# Historial de Modelos Curados
 
-Este directorio contiene modelos que han pasado por procesos de curación y están listos para evaluación y uso en investigación.
+Este directorio contiene versiones anteriores y curadas del modelo metabólico. Cada archivo representa un estado específico en el proceso de desarrollo y refinamiento.
 
-## Modelos Disponibles
+A continuación se detalla cada versión:
 
-### Versión 1.0 - Modelo Final Optimizado
-- `creole_v1.0_final.xml` - Modelo final tras 5 fases de mejora
-- `creole_v1.0_final.consistency_report.json` - Reporte de consistencia estequiométrica  
-- `creole_v1.0_final.consistency_summary.txt` - Resumen de análisis
+- **creole_criolla_colombia_v1.0.xml**: Versión inicial del modelo para la cepa criolla colombiana.
 
-### Modelos Previos
-- `creole_with_gprs.xml` - Modelo con GPRs básicos
-- `creole_with_gprs_annot.xml` - Versión con anotaciones adicionales
+- **creole_criolla_colombia_v1.3.xml**: Versión mejorada con correcciones y anotaciones adicionales sobre la v1.0.
 
-## Características del Modelo v1.0
+- **creole_v1.0_final.xml**: Considerada la primera versión final y estable del modelo base.
 
-- **1,085 reacciones** optimizadas
-- **1,134 metabolitos** con anotaciones completas
-- **2,117 genes** con anotaciones funcionales masivas (162K)
-- **93.1% reacciones balanceadas** en masa
-- **NGAM presente** y funcional
-- **Biomasa optimizada** (GAM: 30→10 ATP)
-- **84% consistencia estequiométrica**
+- **creole_v1.1_balanced.xml**: Modelo con un primer paso de balance de masa sobre las reacciones.
 
-## Validación
-- ✅ FBA optimal (objetivo: 259.86)
-- ✅ MEMOTE testing completo
-- ✅ Balance masa/carga verificado
-- ✅ Funcionalidad de biomasa validada
+- **creole_v1.2_annotated.xml**: Versión con un enfoque en la mejora de las anotaciones de genes y metabolitos.
+
+- **creole_v1.4_balanced.xml**: Iteración adicional sobre el balance de masa, corrigiendo inconsistencias estequiométricas.
+
+- **creole_v1.5_gprs_improved.xml**: Enfocado en la mejora y expansión de las asociaciones gen-proteína-reacción (GPRs).
+
+- **creole_v1.6_gene_annotated.xml**: Versión con anotaciones genéticas mejoradas a través de bases de datos externas.
+
+- **creole_v1.6_mapped_genes.xml**: Similar a la anterior, pero con un mapeo de genes específico.
+
+- **creole_v1.7_miriam_annotated.xml**: Enriquecido con anotaciones estándar MIRIAM para mejorar la interoperabilidad.
+
+- **creole_with_gprs.xml**: Una de las primeras versiones que incluyó GPRs.
+
+- **creole_with_gprs_annot.xml**: Versión con GPRs y anotaciones adicionales.

@@ -1,58 +1,19 @@
-# Current Model - Versión Oficial Actual
+# Modelo Actual: creole_v1.9_consistency_fixed.xml
 
-Este directorio contiene únicamente la versión oficial actual del modelo metabólico de *Solanum tuberosum* cultivar 'Criolla Colombia'.
+Este directorio contiene la versión más reciente y en uso del modelo metabólico, utilizada para las simulaciones actuales.
 
-## Modelo Actual
+## Versión: 1.9 (Consistencia Corregida)
 
-### creole_criolla_colombia_v1.0.xml
-**Modelo Metabólico Oficial - Versión 1.0**
+Esta versión representa una actualización crítica con respecto a la `v1.8`, enfocada principalmente en la corrección de la consistencia interna del modelo para mejorar la fiabilidad de las simulaciones.
 
-- **Organismo**: *Solanum tuberosum* cultivar 'Criolla Colombia'  
-- **Nivel SBML**: Level 3 Version 2
-- **Fecha**: Septiembre 2025
-- **Estado**: Validado y optimizado
+### Resumen de Cambios:
 
-#### Especificaciones Técnicas:
-- **1,085 reacciones** metabólicas optimizadas
-- **1,134 metabolitos** con anotaciones completas  
-- **2,117 genes** con anotaciones funcionales masivas
-- **93.1% reacciones balanceadas** en masa y carga
-- **NGAM**: Presente (ATP maintenance)
-- **Biomasa**: Optimizada (GAM = 10 ATP)
-- **Consistencia**: 84% estequiométrica
+El nombre del archivo, `consistency_fixed`, refleja los cambios principales realizados:
 
-#### Validación:
-- ✅ **FBA Optimal**: Objetivo 259.86
-- ✅ **MEMOTE Testing**: Mejoras significativas en todas las categorías
-- ✅ **Balance**: Masa y carga verificados
-- ✅ **Funcionalidad**: Biomasa validada experimentalmente
+1.  **Corrección de la Direccionalidad de Reacciones**: Se ha llevado a cabo una revisión de las reacciones de intercambio (`Exchange Reactions`). Se corrigió la direccionalidad de varias de ellas, cambiando la definición de `listOfReactants` a `listOfProducts` para asegurar que el modelo pueda importar metabolitos desde el medio externo de forma correcta durante las simulaciones.
 
-#### Anotaciones Funcionales:
-- **162,583 anotaciones** de eggNOG-mapper integradas
-- **386 vías KEGG** organizadas
-- **GO terms**, **EC numbers**, **KEGG pathways**
-- **2,053 genes** enriquecidos funcionalmente
+2.  **Simplificación de Anotaciones**: Se han simplificado las etiquetas de los productos génicos (`geneProduct`). Las anotaciones detalladas (KEGG, GO terms) han sido eliminadas de las etiquetas, lo que resulta en un archivo de modelo más limpio, ligero y fácil de procesar por las herramientas de simulación.
 
-## Archivos de Soporte
+3.  **Curación del Modelo**: Se han eliminado algunas especies y reacciones específicas que estaban presentes en la v1.8 como parte de un proceso de curación para mejorar la calidad y consistencia general del modelo.
 
-- `creole_criolla_colombia_v1.0.consistency_report.json` - Análisis de consistencia detallado
-- `creole_criolla_colombia_v1.0.consistency_summary.txt` - Resumen ejecutivo
-
-## Uso Recomendado
-
-Este modelo está listo para:
-- Análisis de balance de flujo (FBA)
-- Estudios de ingeniería metabólica  
-- Análisis de redes metabólicas
-- Investigación en biotecnología de papa
-- Estudios de sistemas biológicos
-
-## Historial
-
-Para versiones anteriores y desarrollo, consultar:
-- `models/drafts/` - Versiones de trabajo
-- `models/curated/` - Versiones curadas
-
-## Citación
-
-Modelo desarrollado mediante proceso iterativo de 5 fases con integración masiva de anotaciones funcionales y optimización sistemática según estándares MEMOTE.
+En resumen, la **versión 1.9** es una versión más robusta y consistente, optimizada para análisis computacionales como FBA (Flux Balance Analysis).
