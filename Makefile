@@ -37,11 +37,11 @@ CMP_CSV  := $(MAP)/compounds.csv
 
 all: kegg
 
-# “kegg” como alias que exige todos los productos finales (idempotente)
-kegg: $(RXN_EQ) $(RXN_EC) $(RXN_CEDG) $(RC_MAP) $(CMP_CSV)
+# "kegg" como alias que exige todos los productos finales (idempotente)
+kegg: $(RXN_EQ) $(RXN_EC) $(RC_MAP) $(CMP_CSV)
 
 # Alias de conveniencia
-rxn-details: $(RXN_EQ) $(RXN_EC) $(RXN_CEDG) $(RC_MAP)
+rxn-details: $(RXN_EQ) $(RXN_EC) $(RC_MAP)
 compounds:   $(CMP_CSV)
 ko-links:    $(RXN_FROM_KO) $(MOD_FROM_KO) $(MAP_FROM_KO)
 
@@ -85,20 +85,22 @@ $(RXN_FLAT): $(RXN_LIST) | $(KC)/rxn/flat
 	$(SCRIPTS)/pipeline/rxn_details.sh $(RXN_LIST) $@
 	@echo ">>> rxn_flat listo: $@"
 
-# -------- Parsear flat -> CSVs (ecuación, ECs, compuestos, rclass) -> targets reales
-$(RXN_EQ) $(RXN_EC) $(RXN_CEDG) $(RC_MAP): $(RXN_FLAT)
+# -------- Parsear flat -> CSVs reacciones (sin compuestos) -> targets independientes
+$(RXN_EQ) $(RXN_EC) $(RC_MAP): $(RXN_FLAT)
 	@echo ">>> Ejecutando parse_kegg_rxn_flat.py sobre $(RXN_FLAT)..."
 	python3 -u $(SCRIPTS)/processing/parse_kegg_rxn_flat.py $(RXN_FLAT) \
 	  --rxn-equation $(RXN_EQ) \
 	  --rxn-ec $(RXN_EC) \
-	  --rxn-compound-edges $(RXN_CEDG) \
+	  --rxn-compound-edges /tmp/dummy_edges.csv \
 	  --rclass-map $(RC_MAP)
-	@echo ">>> parse_kegg_rxn_flat.py finalizado:"
-	@ls -lh $(RXN_EQ) $(RXN_EC) $(RXN_CEDG) $(RC_MAP) || true
+	@echo ">>> parse_kegg_rxn_flat.py finalizado (reacciones):"
+	@ls -lh $(RXN_EQ) $(RXN_EC) $(RC_MAP) || true
 
-# -------- Compounds: lista desde edges
-$(CMP_LIST): $(RXN_CEDG) | $(PIPE)
-	awk -F',' 'NR>1 {print $$3}' $(RXN_CEDG) | sort -u > $@
+# -------- Compounds: usar rxn2cpd.sh para extraer desde RXN_LIST (independiente)
+$(CMP_LIST): $(RXN_LIST) | $(PIPE)
+	@echo ">>> Extrayendo compuestos únicos usando rxn2cpd.sh..."
+	$(SCRIPTS)/pipeline/rxn2cpd.sh $(RXN_LIST) $@
+	@echo ">>> compounds.list (unique CIDs): $$(wc -l < $@)"
 
 # -------- Descargar compounds flat
 $(CMP_FLAT): $(CMP_LIST) | $(KC)/compound/flat
