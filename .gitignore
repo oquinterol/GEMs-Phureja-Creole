@@ -6,7 +6,8 @@ doccs/
 !README.md
 .sync*
 # Just IDs
-data/
+data/genome/
+data/annotations/
 !data/mappings/
 !data/mappings/**
 
