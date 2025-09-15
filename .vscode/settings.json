@@ -1,0 +1,16 @@
+{
+    "python.defaultInterpreterPath": "/home/oscar/.pyenv/versions/Creole/bin/python",
+    // Desactiva la autoactivación de ms-python en terminal
+    "python.terminal.activateEnvironment": false,
+    "python.terminal.activateEnvInCurrentTerminal": false,
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "terminal.integrated.profiles.linux": {
+        "bash": {
+            "path": "/bin/bash",
+            "args": [
+                "--rcfile",
+                "${workspaceFolder}/.vscode/pyenv-activate.sh"
+            ]
+        }
+    },
+}
