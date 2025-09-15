@@ -1,0 +1,118 @@
+name: Generate MEMOTE Report on Release
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  generate-memote-report:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+
+    - name: Install system dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y libglpk-dev glpk-utils
+
+    - name: Install Python dependencies
+      run: |
+        pip install --upgrade pip
+        pip install cobra memote optlang swiglpk python-libsbml
+
+    - name: Detect models in current and curated directories
+      id: detect-model
+      run: |
+        # Search for XML files in both current/ and curated/ directories
+        SEARCH_DIRS="models/current models/curated"
+        MODEL_FILES=""
+
+        for dir in $SEARCH_DIRS; do
+          if [ -d "$dir" ]; then
+            files=$(find "$dir" -name "*.xml" -type f)
+            if [ ! -z "$files" ]; then
+              MODEL_FILES="$MODEL_FILES $files"
+            fi
+          fi
+        done
+
+        # Remove leading/trailing spaces and convert to array
+        MODEL_FILES=$(echo $MODEL_FILES | xargs)
+
+        if [ -z "$MODEL_FILES" ]; then
+          echo "Error: No XML model files found in models/current/ or models/curated/"
+          exit 1
+        fi
+
+        echo "Found model files:"
+        for file in $MODEL_FILES; do
+          echo "  - $file"
+        done
+
+        # Use the first model found (prioritize current/ over curated/)
+        MAIN_MODEL=$(echo $MODEL_FILES | tr ' ' '\n' | grep -E "models/current/" | head -1)
+        if [ -z "$MAIN_MODEL" ]; then
+          MAIN_MODEL=$(echo $MODEL_FILES | tr ' ' '\n' | head -1)
+        fi
+
+        echo "Selected model: $MAIN_MODEL"
+        echo "model_path=$MAIN_MODEL" >> $GITHUB_OUTPUT
+
+        # Extract just the filename for naming artifacts
+        MODEL_NAME=$(basename "$MAIN_MODEL" .xml)
+        echo "model_name=$MODEL_NAME" >> $GITHUB_OUTPUT
+
+        # Store all model files for later processing
+        echo "all_models=$MODEL_FILES" >> $GITHUB_OUTPUT
+
+        echo "Main model file: $MAIN_MODEL"
+        echo "Main model name: $MODEL_NAME"
+
+    - name: Generate MEMOTE report
+      run: |
+        mkdir -p reports
+        memote report snapshot ${{ steps.detect-model.outputs.model_path }} --filename reports/memote_report_${{ github.event.release.tag_name }}.html
+
+    - name: Create release artifacts directory
+      run: |
+        mkdir -p release-artifacts
+
+    - name: Copy model and report to artifacts
+      run: |
+        cp ${{ steps.detect-model.outputs.model_path }} release-artifacts/${{ steps.detect-model.outputs.model_name }}_${{ github.event.release.tag_name }}.xml
+        cp reports/memote_report_${{ github.event.release.tag_name }}.html release-artifacts/
+
+    - name: Upload model to release
+      uses: actions/upload-release-asset@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        upload_url: ${{ github.event.release.upload_url }}
+        asset_path: ./release-artifacts/${{ steps.detect-model.outputs.model_name }}_${{ github.event.release.tag_name }}.xml
+        asset_name: ${{ steps.detect-model.outputs.model_name }}_${{ github.event.release.tag_name }}.xml
+        asset_content_type: application/xml
+
+    - name: Upload MEMOTE report to release
+      uses: actions/upload-release-asset@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        upload_url: ${{ github.event.release.upload_url }}
+        asset_path: ./release-artifacts/memote_report_${{ github.event.release.tag_name }}.html
+        asset_name: memote_report_${{ github.event.release.tag_name }}.html
+        asset_content_type: text/html
+
+    - name: Generate summary
+      run: |
+        echo "## MEMOTE Report Generated Successfully" >> $GITHUB_STEP_SUMMARY
+        echo "- Model: ${{ steps.detect-model.outputs.model_name }}_${{ github.event.release.tag_name }}.xml" >> $GITHUB_STEP_SUMMARY
+        echo "- Report: memote_report_${{ github.event.release.tag_name }}.html" >> $GITHUB_STEP_SUMMARY
+        echo "- Both files are now available as release assets" >> $GITHUB_STEP_SUMMARY
+        echo "- Original model path: ${{ steps.detect-model.outputs.model_path }}" >> $GITHUB_STEP_SUMMARY
