@@ -1,0 +1,11 @@
+MASS AND CHARGE BALANCE REPORT
+==================================================
+
+Total reactions: 1086
+Mass imbalanced (initial): 68
+Charge imbalanced (initial): 62
+Mass balance fixed: 0
+Charge balance fixed: 54
+Unfixable reactions: 53
+Final mass balance rate: 93.7%
+Final charge balance rate: 99.3%
