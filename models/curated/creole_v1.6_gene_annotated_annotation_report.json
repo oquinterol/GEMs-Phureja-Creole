@@ -1,0 +1,11 @@
+{
+  "total_genes": 2117,
+  "genes_with_emapper": 0,
+  "added_kegg_ko": 0,
+  "added_ec_numbers": 0,
+  "added_go_terms": 0,
+  "added_names": 0,
+  "added_descriptions": 0,
+  "api_calls": -1,
+  "api_failures": 0
+}
