@@ -1,5 +1,7 @@
 # Reconstrucción y Validación de GEMs — *Solanum tuberosum* Gr. *Phureja* (Cultivar 'Criolla Colombia')
 
+[![DOI](https://zenodo.org/badge/1051876596.svg)](https://doi.org/10.5281/zenodo.18702051)
+
 Repositorio para la **reconstrucción, curación y validación** de Modelos Metabólicos a Escala Genómica (GEMs) de la variedad **Criolla Colombia**. El proyecto integra **COBRApy**, **ModelSEEDpy**, y **MEMOTE**, con cumplimiento estricto de **SBML Level 3 V2 + FBC v2** y **anotaciones MIRIAM/Identifiers.org**. Está diseñado para ejecutarse **localmente** (offline) o mediante **APIs** (resolución y enriquecimiento de metadatos en línea).
 
 ---
@@ -43,6 +45,15 @@ Repositorio para la **reconstrucción, curación y validación** de Modelos Meta
 4. Envía un *pull request* con un resumen claro del cambio y su justificación.
 
 > Se espera un estilo de código claro, notebooks con propósito definido y resultados reproducibles. Por favor, evita subir datos con restricciones de licencia; comparte únicamente identificadores y metadatos mínimos cuando sea necesario.
+
+---
+
+## Cómo citar
+
+Si utilizas este repositorio, por favor cita la versión archivada en Zenodo:
+
+- DOI: [10.5281/zenodo.18702051](https://doi.org/10.5281/zenodo.18702051)
+- Metadatos de citación: `CITATION.cff`
 
 ---
 
