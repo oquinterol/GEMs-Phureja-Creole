@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+title: >-
+  GEM Creole: Genome-scale Metabolic Model of Solanum tuberosum
+  Group Phureja (Cultivar 'Criolla Colombia')
+message: >-
+  If you use this model in your research, please cite it using
+  the metadata from this file.
+type: dataset
+authors:
+  - given-names: Oscar
+    # family-names: TODO
+    # orcid: 'https://orcid.org/0000-0000-0000-0000'
+    affiliation: Universidad Nacional de Colombia
+repository-code: 'https://github.com/Ampiria/GEM_Creole'
+license: CC-BY-4.0
+version: 2.0.0
+date-released: '2026-02-19'
+keywords:
+  - genome-scale metabolic model
+  - GEM
+  - Solanum tuberosum
+  - potato
+  - Criolla Colombia
+  - flux balance analysis
+  - SBML
+  - constraint-based modeling
+abstract: >-
+  Genome-scale metabolic reconstruction of Solanum tuberosum Group
+  Phureja (Cultivar 'Criolla Colombia'). The model contains 1,063
+  reactions, 1,078 metabolites, and 2,048 genes with MIRIAM
+  annotations. Built from KBase draft reconstruction with eggNOG-mapper
+  functional annotations (162K annotations, 1,328 EC numbers).
+  SBML Level 3 Version 2 + FBC v2 compliant.
