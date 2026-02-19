@@ -5,13 +5,31 @@ title: >-
 message: >-
   If you use this model in your research, please cite it using
   the metadata from this file.
-type: dataset
+type: software
 authors:
-  - given-names: Oscar
-    # family-names: TODO
-    # orcid: 'https://orcid.org/0000-0000-0000-0000'
+  - given-names: Oscar Alexis
+    family-names: Quintero López
+    orcid: 'https://orcid.org/0000-0001-8926-6400'
+    affiliation: >-
+      Universidad Nacional de Colombia; District University of
+      Bogotá
+  - given-names: Luis Francisco
+    family-names: Becerra Galindo
+    orcid: 'https://orcid.org/0000-0002-9093-7213'
+    affiliation: District University of Bogotá
+  - given-names: Andres
+    family-names: Pinzón
+    orcid: 'https://orcid.org/0000-0002-4133-810X'
     affiliation: Universidad Nacional de Colombia
 repository-code: 'https://github.com/oquinterol/GEMs-Phureja-Creole'
+doi: '10.5281/zenodo.18702051'
+identifiers:
+  - type: doi
+    value: '10.5281/zenodo.18702051'
+    description: Concept DOI for all versions
+  - type: doi
+    value: '10.5281/zenodo.18702052'
+    description: DOI for version 2.0.0
 license: CC-BY-4.0
 version: 2.0.0
 date-released: '2026-02-19'
