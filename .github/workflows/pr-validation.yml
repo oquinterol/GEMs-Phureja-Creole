@@ -1,0 +1,55 @@
+name: PR Validation
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'models/**'
+      - 'scripts/**'
+      - 'requirements.txt'
+
+jobs:
+  validate-model:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+
+    - name: Install system dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y libglpk-dev glpk-utils
+
+    - name: Install Python dependencies
+      run: |
+        pip install --upgrade pip
+        pip install -r requirements.txt
+
+    - name: Run FBA smoke test
+      run: |
+        python scripts/validation/fba_smoke.py \
+          --model models/current/CreolePotato.xml \
+          --out reports/smoke.log
+        cat reports/smoke.log
+
+    - name: Run MEMOTE summary
+      run: |
+        mkdir -p reports
+        memote report snapshot \
+          models/current/CreolePotato.xml \
+          --filename reports/memote_pr.html
+
+    - name: Generate summary
+      run: |
+        echo "## Model Validation Results" >> $GITHUB_STEP_SUMMARY
+        echo "### FBA Smoke Test" >> $GITHUB_STEP_SUMMARY
+        cat reports/smoke.log >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        echo "### MEMOTE Report" >> $GITHUB_STEP_SUMMARY
+        echo "MEMOTE report generated successfully." >> $GITHUB_STEP_SUMMARY
