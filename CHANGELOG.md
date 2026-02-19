@@ -72,13 +72,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Initial curated model from KBase draft reconstruction
 - Base model for *Solanum tuberosum* Group Phureja
 
-[2.0.0]: https://github.com/Ampiria/GEM_Creole/releases/tag/v2.0.0
-[v1.9]: https://github.com/Ampiria/GEM_Creole/releases/tag/v1.9
-[v1.8]: https://github.com/Ampiria/GEM_Creole/releases/tag/v1.8
-[v1.7]: https://github.com/Ampiria/GEM_Creole/releases/tag/v1.7
-[v1.6]: https://github.com/Ampiria/GEM_Creole/releases/tag/v1.6
-[v1.5]: https://github.com/Ampiria/GEM_Creole/releases/tag/v1.5
-[v1.4]: https://github.com/Ampiria/GEM_Creole/releases/tag/v1.4
-[v1.2]: https://github.com/Ampiria/GEM_Creole/releases/tag/v1.2
-[v1.1]: https://github.com/Ampiria/GEM_Creole/releases/tag/v1.1
-[v1.0]: https://github.com/Ampiria/GEM_Creole/releases/tag/v1.0
+[2.0.0]: https://github.com/oquinterol/GEMs-Phureja-Creole/releases/tag/v2.0.0
+[v1.9]: https://github.com/oquinterol/GEMs-Phureja-Creole/releases/tag/v1.9
+[v1.8]: https://github.com/oquinterol/GEMs-Phureja-Creole/releases/tag/v1.8
+[v1.7]: https://github.com/oquinterol/GEMs-Phureja-Creole/releases/tag/v1.7
+[v1.6]: https://github.com/oquinterol/GEMs-Phureja-Creole/releases/tag/v1.6
+[v1.5]: https://github.com/oquinterol/GEMs-Phureja-Creole/releases/tag/v1.5
+[v1.4]: https://github.com/oquinterol/GEMs-Phureja-Creole/releases/tag/v1.4
+[v1.2]: https://github.com/oquinterol/GEMs-Phureja-Creole/releases/tag/v1.2
+[v1.1]: https://github.com/oquinterol/GEMs-Phureja-Creole/releases/tag/v1.1
+[v1.0]: https://github.com/oquinterol/GEMs-Phureja-Creole/releases/tag/v1.0
