@@ -1,19 +1,37 @@
-# Modelo Actual: creole_v1.9_consistency_fixed.xml
+# Current Production Model: CreolePotato.xml
 
-Este directorio contiene la versión más reciente y en uso del modelo metabólico, utilizada para las simulaciones actuales.
+This directory contains the current production version of the genome-scale metabolic model, used for simulations and analysis.
 
-## Versión: 1.9 (Consistencia Corregida)
+## Version: 2.0
 
-Esta versión representa una actualización crítica con respecto a la `v1.8`, enfocada principalmente en la corrección de la consistencia interna del modelo para mejorar la fiabilidad de las simulaciones.
+This version is a publication-ready release that consolidates all curation work from the v1.x series.
 
-### Resumen de Cambios:
+### Model Summary
 
-El nombre del archivo, `consistency_fixed`, refleja los cambios principales realizados:
+| Property | Value |
+|----------|-------|
+| Model ID | `CreolePotato_v2_0` |
+| Organism | *Solanum tuberosum* Group Phureja (Cultivar 'Criolla Colombia') |
+| Reactions | 1,063 |
+| Metabolites | 1,078 |
+| Genes | 2,048 |
+| SBML Level | 3 Version 1 + FBC v2 |
+| FBA Status | Optimal (objective: 361.32) |
 
-1.  **Corrección de la Direccionalidad de Reacciones**: Se ha llevado a cabo una revisión de las reacciones de intercambio (`Exchange Reactions`). Se corrigió la direccionalidad de varias de ellas, cambiando la definición de `listOfReactants` a `listOfProducts` para asegurar que el modelo pueda importar metabolitos desde el medio externo de forma correcta durante las simulaciones.
+### Changes from v1.9
 
-2.  **Simplificación de Anotaciones**: Se han simplificado las etiquetas de los productos génicos (`geneProduct`). Las anotaciones detalladas (KEGG, GO terms) han sido eliminadas de las etiquetas, lo que resulta en un archivo de modelo más limpio, ligero y fácil de procesar por las herramientas de simulación.
+- Updated SBML metadata (id, metaid, name, RDF annotations) to v2.0
+- Renamed to version-agnostic filename `CreolePotato.xml` (standard-GEM convention)
+- Version tracked in `version.txt` and SBML metadata, not filename
 
-3.  **Curación del Modelo**: Se han eliminado algunas especies y reacciones específicas que estaban presentes en la v1.8 como parte de un proceso de curación para mejorar la calidad y consistencia general del modelo.
+### History
 
-En resumen, la **versión 1.9** es una versión más robusta y consistente, optimizada para análisis computacionales como FBA (Flux Balance Analysis).
+The v1.x series is preserved in `models/curated/` and as GitHub releases (deprecated). Key milestones:
+
+- **v1.0**: Initial curated model from KBase draft
+- **v1.1-v1.4**: Mass balance corrections
+- **v1.5**: GPR expansion
+- **v1.6-v1.7**: Gene annotations and MIRIAM enrichment
+- **v1.8**: eggNOG-mapper MIRIAM annotations
+- **v1.9**: Exchange reaction directionality fixes, consistency curation
+- **v2.0**: Metadata standardization, publication release
